@@ -1,0 +1,644 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 20679575100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser(Scenario)"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Add item to basket and checkout as guest",
+        "description": "",
+        "id": "a-guest-checkout;add-item-to-basket-and-checkout-as-guest",
+        "after": [
+          {
+            "result": {
+              "duration": 2198819078,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7513630598,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the RS home web page",
+            "match": {
+              "location": "SearchSteps.i_am_on_the_rs_home_web_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 386613678,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I search for \"818-8767\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "818-8767",
+                  "offset": 14
+                }
+              ],
+              "location": "SearchSteps.i_search_for(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7337406590,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click the search button",
+            "match": {
+              "location": "SearchSteps.i_click_the_search_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 188184192,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I should see \"ABCU-5740ARZ\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ABCU-5740ARZ",
+                  "offset": 14
+                }
+              ],
+              "location": "SearchSteps.i_should_see(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 343211130,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I make the quantity \"2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 21
+                }
+              ],
+              "location": "CheckoutSteps.i_make_the_quantity(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1566186212,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click the add to cart button",
+            "match": {
+              "location": "CheckoutSteps.i_click_the_add_to_cart_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 18287889881,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I select view basket",
+            "match": {
+              "location": "CheckoutSteps.i_select_view_basket()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7958314481,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I checkout basket",
+            "match": {
+              "location": "CheckoutSteps.i_checkout_basket()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5819770590,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I complete order",
+            "match": {
+              "location": "CheckoutSteps.i_complete_order()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 16151430373,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser(Scenario)"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Add a different item to basket and checkout as guest",
+        "description": "",
+        "id": "a-guest-checkout;add-a-different-item-to-basket-and-checkout-as-guest",
+        "after": [
+          {
+            "result": {
+              "duration": 2098855086,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 31643307523,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I am on the RS home web page",
+            "match": {
+              "location": "SearchSteps.i_am_on_the_rs_home_web_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 218068187,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I search for \"433-6016\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "433-6016",
+                  "offset": 14
+                }
+              ],
+              "location": "SearchSteps.i_search_for(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8827876760,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I click the search button",
+            "match": {
+              "location": "SearchSteps.i_click_the_search_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 190534575,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I should see \"XG12P20\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "XG12P20",
+                  "offset": 14
+                }
+              ],
+              "location": "SearchSteps.i_should_see(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 306758806,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I make the quantity \"1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 21
+                }
+              ],
+              "location": "CheckoutSteps.i_make_the_quantity(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 491020560,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I click the add to cart button",
+            "match": {
+              "location": "CheckoutSteps.i_click_the_add_to_cart_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8184243365,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I select view basket",
+            "match": {
+              "location": "CheckoutSteps.i_select_view_basket()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 975354332,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I checkout basket",
+            "match": {
+              "location": "CheckoutSteps.i_checkout_basket()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5537721599,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I complete order",
+            "match": {
+              "location": "CheckoutSteps.i_complete_order()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "A guest checkout",
+    "description": "",
+    "id": "a-guest-checkout",
+    "keyword": "Feature",
+    "uri": "features/RS_Checkout.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@search"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 15453556408,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser(Scenario)"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "A simple RS catalogue search scenario",
+        "description": "",
+        "id": "a-simple-rs-search;a-simple-rs-catalogue-search-scenario",
+        "after": [
+          {
+            "result": {
+              "duration": 1988011163,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 20378252625,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the RS home web page",
+            "match": {
+              "location": "SearchSteps.i_am_on_the_rs_home_web_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 620173610,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I search for \"909-8132\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "909-8132",
+                  "offset": 14
+                }
+              ],
+              "location": "SearchSteps.i_search_for(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 15817028048,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click the search button",
+            "match": {
+              "location": "SearchSteps.i_click_the_search_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 205182561,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I should see \"TZT 241 AAA-01\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "TZT 241 AAA-01",
+                  "offset": 14
+                }
+              ],
+              "location": "SearchSteps.i_should_see(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 14771472693,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser(Scenario)"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Another simple RS catalogue search scenario",
+        "description": "",
+        "id": "a-simple-rs-search;another-simple-rs-catalogue-search-scenario",
+        "after": [
+          {
+            "result": {
+              "duration": 1937617765,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7568695683,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I am on the RS home web page",
+            "match": {
+              "location": "SearchSteps.i_am_on_the_rs_home_web_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 304784758,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I search for \"896-8660\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "896-8660",
+                  "offset": 14
+                }
+              ],
+              "location": "SearchSteps.i_search_for(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6845809552,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I click the search button",
+            "match": {
+              "location": "SearchSteps.i_click_the_search_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 184680000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I should see \"Raspberry Pi 3 Model B\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Raspberry Pi 3 Model B",
+                  "offset": 14
+                }
+              ],
+              "location": "SearchSteps.i_should_see(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 15749277052,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser(Scenario)"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Search for Heat Shrinkable Sleeving",
+        "description": "",
+        "id": "a-simple-rs-search;search-for-heat-shrinkable-sleeving",
+        "after": [
+          {
+            "result": {
+              "duration": 1982579537,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8001864569,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I am on the RS home web page",
+            "match": {
+              "location": "SearchSteps.i_am_on_the_rs_home_web_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 331974108,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I search for \"Heat Shrinkable Sleeving\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Heat Shrinkable Sleeving",
+                  "offset": 14
+                }
+              ],
+              "location": "SearchSteps.i_search_for(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6366746609,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I click the search button",
+            "match": {
+              "location": "SearchSteps.i_click_the_search_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 12795463196,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I select \"2508886773\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2508886773",
+                  "offset": 10
+                }
+              ],
+              "location": "SearchSteps.i_select(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 185390760,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I should see \"FP221 1/2 CLEAR 4\u0027\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "FP221 1/2 CLEAR 4\u0027",
+                  "offset": 14
+                }
+              ],
+              "location": "SearchSteps.i_should_see(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "A simple RS search",
+    "description": "",
+    "id": "a-simple-rs-search",
+    "keyword": "Feature",
+    "uri": "features/RS_Search.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@search"
+      }
+    ]
+  }
+]

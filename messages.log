@@ -1,0 +1,22 @@
+2018-01-13 20:56:12 ERROR Hooks:67 - Failed to decode response from marionette
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'DKS_SAMSUNG', ip: '192.168.56.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 57.0.4, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 6840, moz:profile: C:\Users\Dave\AppData\Local..., moz:webdriverClick: false, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.3, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 0e3f9e63-2fe5-48b6-a319-fecc446d3a85
+2018-01-13 20:56:12 ERROR Hooks:67 - Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'DKS_SAMSUNG', ip: '192.168.56.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_131'
+Driver info: driver.version: RemoteWebDriver
+2018-01-13 21:03:54 ERROR Hooks:67 - Failed to decode response from marionette
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'DKS_SAMSUNG', ip: '192.168.56.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 57.0.4, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 7500, moz:profile: C:\Users\Dave\AppData\Local..., moz:webdriverClick: false, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.3, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: ae16732a-7430-407c-a35e-6a92efc06f00
+2018-01-14 19:11:14 ERROR Hooks:67 - Failed to decode response from marionette
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'DKS_SAMSUNG', ip: '192.168.56.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 57.0.4, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 9516, moz:profile: C:\Users\Dave\AppData\Local..., moz:webdriverClick: false, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.3, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 34a9750e-3d1d-4aad-9e8d-e560db96627d
