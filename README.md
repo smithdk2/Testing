@@ -1,6 +1,6 @@
 ## RS Testing Role assignment ##
 
-*Sponsored by Leroy Nimley*
+*Requested by Leroy Nimley*
 
 
 **Purpose** 
@@ -26,8 +26,8 @@ To create a page object model framework which has 5 automation tests written in 
   Select Checkout  
   Fill in customer details
 
-- Search for RS Stock No "xxxx"  
-  Change Quantity to "4"  
+- Search for RS Stock No "433-6016"  
+  Ensure Quantity is "1"  
   Add to basket  
   Select Checkout  
   Fill in customer details
@@ -43,7 +43,4 @@ or in IntelliJ run the "RunCukesTest.java" class
 
 #### Author ####
 David Smith
-
-0793 960 3892
-
 dave.k.smith@btinternet.com
